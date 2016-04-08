@@ -1,0 +1,4 @@
+Implemented-
+editable input with checkbox enabled saving procedure.
+localStorage for storing data
+Binding of some key like "enter" to automatically save and "esc" to revert the process
