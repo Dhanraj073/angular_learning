@@ -1,0 +1,31 @@
+<!doctype html>
+<html ng-app="app1">
+<head>
+<title>Angular assignment</title>
+</head>
+<body>
+<div ng-controller="ctrl1">
+
+	<span>Please enter values</span>
+	<input type="text" ng-model="first"/>
+	<input type="text" ng-model="second"/>
+	<input type="checkbox" ng-checked="save()" />
+	<br>
+	<button ng-click="updateValue()">Edit </button>
+	<br>
+	{{calculation}}
+	<br>
+	<br>
+	<button ng-click="load()">Click to see value</button>
+	{{message}}
+	<br>
+	<br>
+	<a ng-click="save()" ng-keydown="$event.which === 13 && save()">Press enter to save</a>
+	<br>
+	<a ng-click="myfun()" ng-keydown=="$event.which ===27 && myfun()">Escape key to revert</a>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+<script src="https://cdn.jsdelivr.net/ngstorage/0.3.6/ngStorage.min.js"></script>
+<script src="altflo.js"></script>
+</body>
+</html>
