@@ -22,7 +22,7 @@ app1.controller('ctrl1',function($scope,$localStorage)
 		window.localStorage.set("saved",JSON.stringify($scope.first+ " "+ $scope.second));
 	}
 
-	$scope.foad=function(){
+	$scope.load=function(){
 		$scope.message=JSON.parse(window.localStorage.get("saved"));
 	}
 	$scope.myfun=function(){
