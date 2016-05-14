@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lab="en" ng-app="referralApp">
+<head>
+	<title>Referral App</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:300,400,500,700,400italic">
+
+		<link rel="stylesheet" href="/stylesheets/materialize.min.css">
+		<link rel="stylesheet" href="/stylesheets/style.css">
+		<link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body>
+
+ <div id="main-wrapper" ng-controller="MainCtrl">
+ <div ng-view></div>
+  
+
+
+  </div>
+ <!-- <div class="row-size" ng-view></div>  -->
+
+  
+
+  <div class="hiddendiv">
+    <!-- Angular Material Dependencies-->
+    <script src="/javascripts/global/angular.min.js"></script>
+    <script src="/javascripts/global/angular-route.min.js"></script>
+    <script src="/javascripts/global/jquery.js"></script>
+    <script src="/javascripts/global/materialize.min.js"></script>
+    
+    <script src="/javascripts/MainController.js"></script>
+    <script src="/javascripts/OrderController.js"></script>
+    <script src="/javascripts/app.routes.js"></script>
+    <script src="/javascripts/func.js"></script>
+
+    <!-- <script src="/javascripts/app.routes.js"></script> -->
+  </div>
+</body>
+</html>
